@@ -64,6 +64,8 @@ The project includes several experiments to test the efficacy of instruction tun
 ![image](https://github.com/user-attachments/assets/981783c0-6754-4a2a-9d41-d15d7e71cf79)
 
 2. Prediction
+![image](https://github.com/user-attachments/assets/b39819b4-733b-4af9-b7ec-5a271cdaf292)
+
    
 ## Contributing
 Contributions are welcome! If you have ideas, suggestions, or improvements, please fork the repository and submit a pull request. You can also report issues or bugs by opening an issue in the GitHub repository.
