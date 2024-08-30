@@ -26,18 +26,25 @@ Key components of the project include:
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
+   
    '''bash
    git clone https://github.com/dipkimyen/Instruction-Tuning-for-On-Demand-Information-Extraction.git'''
-2. Navigate to the project directory:
+   
+3. Navigate to the project directory:
+   
   '''bash
   cd Instruction-Tuning-for-On-Demand-Information-Extraction'''
-3. Install the required Python packages:
+  
+5. Install the required Python packages:
+   
    '''bash
    pip install -r requirements.txt'''
+   
 
 ## Usage
 ### Running the Training Script
 To train the model with your custom dataset and instructions, run:
+
 '''bash
 python train.py --config config.yaml'''
 
@@ -49,8 +56,10 @@ Where config.yaml contains the configuration for the training process, including
 * Inference and Evaluation
   
 After training, you can perform inference using:
+
 '''bash
 python infer.py --model_path <path_to_model> --input_file <input_data>'''
+
 This will generate the extracted information based on the provided instructions in the input_file.
 
 ## Results
