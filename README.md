@@ -60,8 +60,11 @@ The project includes several experiments to test the efficacy of instruction tun
 * Model Comparisons: Comparing the performance of instruction-tuned models against baseline models.
 
 ## Results
+1. Label
+![image](https://github.com/user-attachments/assets/981783c0-6754-4a2a-9d41-d15d7e71cf79)
 
-
+2. Prediction
+   
 ## Contributing
 Contributions are welcome! If you have ideas, suggestions, or improvements, please fork the repository and submit a pull request. You can also report issues or bugs by opening an issue in the GitHub repository.
 
