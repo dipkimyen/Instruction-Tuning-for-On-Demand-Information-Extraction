@@ -7,7 +7,6 @@ This repository contains the implementation and experiments related to instructi
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Experiments](#experiments)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,16 +47,11 @@ Where config.yaml contains the configuration for the training process, including
 * Training hyperparameters
 * Instruction templates
 * Inference and Evaluation
+  
 After training, you can perform inference using:
 '''bash
 python infer.py --model_path <path_to_model> --input_file <input_data>'''
 This will generate the extracted information based on the provided instructions in the input_file.
-
-## Experiments
-The project includes several experiments to test the efficacy of instruction tuning in different scenarios. These experiments involve:
-* Different Instruction Types: Testing various forms of instructions to see how they impact model performance.
-* Data Variety: Evaluating the model on different types of text data, from structured information to more complex, free-form text.
-* Model Comparisons: Comparing the performance of instruction-tuned models against baseline models.
 
 ## Results
 1. Prediction
